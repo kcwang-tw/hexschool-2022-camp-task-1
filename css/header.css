@@ -1,0 +1,28 @@
+header {
+    width: 940px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.logo {
+    height: 40px;
+}
+
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item {
+    font-size: 16px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.cart {
+    width: 24px;
+    margin-left: 49px;
+}
