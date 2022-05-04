@@ -1,0 +1,10 @@
+main {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner img {
+    width: 940px;
+}
