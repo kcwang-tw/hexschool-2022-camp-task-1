@@ -7,4 +7,30 @@ main {
 
 .banner img {
     width: 940px;
+    margin-bottom: 60px;
+}
+
+.main-contents {
+    width: 940px;
+    display: flex;
+}
+
+.side-nav {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.side-nav-title, .side-nav-item {
+    height: 65px;
+    font-size: 24px;
+    padding: 16px 0;
+    text-align: center;
+    display: block;
+    border: 1px solid #EAF0ED;
+    box-sizing: border-box;
+}
+
+.product-list {
+    margin-left: 20px;
 }
