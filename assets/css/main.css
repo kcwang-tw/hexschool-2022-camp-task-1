@@ -27,5 +27,33 @@ main {
 }
 
 .product-list {
-    margin-left: 20px;
+    width: 620px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product {
+    margin-bottom: 20px;
+}
+
+.product-info {
+    display: flex;
+    border: 1px solid #EAF0ED;
+}
+
+.product-name {
+    border-right: 1px solid #EAF0ED;
+    color: #3F5D45;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 12px 33px;
+}
+
+.price {
+    color: #3F5D45;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 12px 20px 12px 0;
+    margin-left: auto;
 }
