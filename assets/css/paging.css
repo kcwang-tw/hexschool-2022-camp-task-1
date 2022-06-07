@@ -1,0 +1,32 @@
+.paging {
+    margin-top: 30px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.page-item {
+    border: 1px solid #EAF0ED;
+    
+}
+
+.page-item a {
+    font-size: 20px;
+    color: #3F5D45;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-item .active-page {
+    background: #3F5D45;
+    color: #EAF0ED;
+}
+
+.page-item a:hover {
+    background: #EAF0ED;
+    color: #3F5D45;
+}
