@@ -9,19 +9,19 @@ main {
     width: 300px;
 }
 
-.side-nav-title, .side-nav-item {
+.side-nav-title, .side-nav-item, .add-to-cart {
     font-size: 24px;
     padding: 16px 0;
     text-align: center;
     display: block;
 }
 
-.side-nav-item {
+.side-nav-item, .add-to-cart {
     border: 1px solid #EAF0ED;
     box-sizing: border-box;
 }
 
-.side-nav-item:hover {
+.side-nav-item:hover, .add-to-cart:hover {
     background: #3F5D45;
     color: #EAF0ED;
 }
@@ -39,7 +39,7 @@ main {
 
 .product-info {
     display: flex;
-    border: 1px solid #EAF0ED;
+    border-left: 1px solid #EAF0ED;
 }
 
 .product-name {
@@ -51,6 +51,7 @@ main {
 }
 
 .price {
+    border-right: 1px solid #EAF0ED;
     color: #3F5D45;
     font-size: 20px;
     font-weight: bold;
