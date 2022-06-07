@@ -35,6 +35,7 @@ main {
 
 .product {
     margin-bottom: 20px;
+    position: relative;
 }
 
 .product-info {
@@ -57,4 +58,21 @@ main {
     font-weight: bold;
     padding: 12px 20px 12px 0;
     margin-left: auto;
+}
+
+.recommend {
+    position: absolute;
+    top: 0;
+    left: 20px;
+    background: #3F5D45;
+    color: #EAF0ED;
+    padding: 10px;
+    writing-mode: vertical-rl;
+    letter-spacing: 4px;
+}
+
+.add-to-favorite {
+    position: absolute;
+    top: 19px;
+    right: 22px;
 }
